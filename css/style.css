@@ -1,0 +1,493 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: silver;
+  font-family: "Montserrat", sans-serif;
+}
+
+form {
+  margin: auto;
+  width: 80%;
+  height: 1000px;
+  background-color: tan;
+}
+
+/* ovde je header */
+header {
+  height: 100px;
+  background-color: #fff;
+  margin: auto;
+  display: flex;
+}
+
+.logo-slika {
+  flex: 1;
+  margin: 0;
+  margin-left: 20px;
+}
+
+nav {
+  flex: 1;
+}
+
+.nav-links {
+  list-style: none;
+  justify-content: space-around;
+  display: flex;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.item-link,
+.dugmence {
+  text-decoration: none;
+  font-size: 12pt;
+  color: #154182;
+  font-weight: 400;
+  padding: 7px;
+  margin: auto;
+  transition: border-botom 2s;
+  transition: 2s;
+}
+
+.item-link:hover {
+  color: orangered;
+  transition: 2s;
+  border-bottom: 1px solid orangered;
+  padding-bottom: 5px;
+}
+
+.dugmence {
+  border: 0px solid #ffcc00;
+  padding: 15px 42px 15px 42px;
+  background-color: #ffcc00;
+  color: #154182;
+}
+
+.dugmence:hover {
+  background-color: orangered;
+  color: #fff;
+}
+
+/* ovde se zavrsava header */
+
+/* odavde krece slika  */
+
+main {
+  margin: auto;
+  position: relative;
+}
+
+.main-foto {
+  margin: auto;
+  padding: 0;
+  background-color: #fff;
+  position: relative;
+}
+
+.txt-na-slici {
+  position: absolute;
+  bottom: 130px;
+  left: 60px;
+  color: #ffcc00;
+  align-items: center;
+  height: 300px;
+  width: 280px;
+}
+
+.txt-na-slici h1 {
+  color: #ffcc00;
+  font-size: 36pt;
+}
+
+.txt-na-slici p {
+  padding-top: 40px;
+  text-align: left;
+  font-weight: 600;
+  padding-bottom: 60px;
+  color: #fff;
+}
+
+/* Ovde se zavrsava slika */
+
+/* Odavde krece deo ispod slike 3 deo */
+
+.Onama {
+  margin: auto;
+  width: 100%;
+  height: 300px;
+  background-color: #fff;
+  position: relative;
+}
+
+.Onama1 {
+  position: absolute;
+  padding-left: 20px;
+}
+
+.Onama2 {
+  position: absolute;
+  left: 390px;
+  padding-top: 40px;
+}
+
+.Onama2 p {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+/* Ikonice deo */
+
+.ikonice {
+  height: 700px;
+  width: 100%;
+  background-color: yellowgreen;
+}
+
+.TATA {
+  height: 700px;
+  width: 100%;
+  background-color: #b3c39b;
+  margin: auto;
+  position: relative;
+  padding-top: 20px;
+}
+
+.MAMA {
+  position: relative;
+  height: 500px;
+  width: 70%;
+  margin: auto;
+  top: 50px;
+}
+
+.dete1,
+.dete2,
+.dete3,
+.dete4,
+.dete5,
+.dete6 {
+  position: absolute;
+  text-align: center;
+}
+
+.dete2,
+.dete3,
+.dete4,
+.dete5 {
+  font-size: 12pt;
+  font-weight: 300;
+  padding: 30px 0 0 0;
+  color: #154182;
+}
+
+.dete22,
+.dete33,
+.dete44,
+.dete55 {
+  margin: auto;
+  height: 70%;
+  width: 70%;
+  padding-top: 20px;
+}
+
+.dete22,
+.dete33,
+.dete44,
+.dete55,
+h2 {
+  padding: 10px;
+}
+
+.dete1 {
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+  color: #154182;
+}
+
+.dete6 {
+  width: 100%;
+  height: 50px;
+  bottom: 0px;
+  padding-bottom: 30px;
+}
+
+.dete2 {
+  width: 50%;
+  height: 50%;
+}
+
+.dete3 {
+  height: 50%;
+  width: 50%;
+  right: 0;
+}
+
+.dete4 {
+  height: 50%;
+  width: 50%;
+  bottom: 0;
+}
+
+.dete5 {
+  height: 50%;
+  width: 50%;
+  bottom: 0;
+  right: 0;
+}
+
+/* Footer */
+.tatafooter {
+  width: 100%;
+  height: 320px;
+  background-color: #154182;
+  display: flex;
+  position: relative;
+  background-image: url("./images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: 0px;
+}
+
+.dete1footer,
+.dete2footer,
+.dete3footer {
+  display: flex;
+}
+
+.dete1footer {
+  width: 33%;
+  height: 320px;
+  flex: 1;
+  justify-content: flex-start;
+  background-image: url("./images/footer_logo.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 30px;
+  background-position-y: 30px;
+}
+
+.dete1footer p {
+  text-align: left;
+  color: #ffffff;
+  font-weight: 300;
+  padding: 90px 0 0 20px;
+}
+
+.dete2footer {
+  width: 33%;
+  height: 320px;
+  flex: 1;
+}
+
+.dete22footer {
+  height: 30px;
+  width: 100%;
+  position: absolute;
+}
+.dete23footer {
+  position: absolute;
+  bottom: 40px;
+}
+
+.dete23footer p {
+  padding: 0 80px 131px 20px;
+  color: #ffffff;
+  font-weight: 300;
+}
+.dete22footer i {
+  padding: 30px 0 0 25px;
+}
+
+.dete3footer {
+  width: 33%;
+  height: 320px;
+  flex: 1;
+}
+
+.dete33footer {
+  padding: 30px 160px 0 0;
+  color: #ffffff;
+}
+
+/* odavde krece drugi ONAMA Paragraf */
+/* 
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexContainer div {
+  flex-basis: 50%;
+}
+
+.plava {
+  background-color: blue;
+  width: 100%;
+  height: 60px;
+}
+
+.riba {
+  background-color: chartreuse;
+  width: 100%;
+  height: 60px;
+} */
+
+.porodica {
+  width: 100%;
+  height: 600px;
+  background-color: #154182;
+  display: flex;
+  position: relative;
+}
+
+.dt1,
+.dt2,
+.dt3,
+.dt4 {
+  display: flex;
+}
+
+.dt1 {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+}
+
+.Naslov h1 {
+  color: #ffffff;
+  padding: 40px 0 0 50px;
+}
+/* ovde radimo drugi deo sa slikicama */
+.dt2 {
+  height: 400px;
+  width: 100%;
+  background-color: cornflowerblue;
+  flex: 1;
+  margin-top: 100px;
+  position: relative;
+  display: inline;
+}
+
+.kockica1,
+.kockica2,
+.kockica3,
+.kockica4 {
+  width: 100%;
+  height: 100px;
+  background-color: #154182;
+}
+
+.kockica1 p {
+  padding: 20px 0 0 40px;
+  color: #ffffff;
+}
+
+.kockica2 {
+  background-image: url("./images/bg_tell.png");
+  background-repeat: no-repeat;
+  background-position-x: 40px;
+  background-position-y: 20px;
+  color: #ffffff;
+}
+
+.kockica2 p {
+  padding: 80px 0 0 40px;
+}
+
+.kockica3 {
+  background-image: url("./images/bg_email.png");
+  background-repeat: no-repeat;
+  background-position-x: 40px;
+  background-position-y: 20px;
+  color: #ffffff;
+}
+
+.kockica3 p {
+  padding: 80px 0 0 40px;
+}
+
+.kockica4 {
+  background-image: url("./images/bg_address.png");
+  background-repeat: no-repeat;
+  background-position-x: 40px;
+  background-position-y: 20px;
+  color: #ffffff;
+}
+
+.kockica4 p {
+  padding: 80px 0 0 40px;
+}
+
+/* Ovde je radjen inputtag */
+.dt3 {
+  height: 400px;
+  width: 100%;
+  flex: 2;
+  margin-top: 100px;
+  position: relative;
+}
+
+.selektside {
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  position: relative;
+}
+
+.selektside div {
+  flex-basis: 50%;
+}
+
+.levastrana {
+  width: 50%;
+  height: 250px;
+  padding: 30px 0 0 50px;
+}
+
+input {
+  margin-bottom: 30px;
+}
+
+.desnastrana {
+  width: 50%;
+  height: 250px;
+  padding: 30px 0 0 50px;
+}
+
+.txtarea {
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+}
+
+.msgbox {
+  margin: 30px 0 0 50px;
+}
+
+/* Ovde ostaje deo za button */
+.dt4 {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+}
+
+.dugmic {
+  margin: auto;
+}
+
+/* malibelideo */
+
+.malibelideo {
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+}
